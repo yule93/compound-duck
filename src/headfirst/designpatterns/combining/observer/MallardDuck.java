@@ -11,6 +11,7 @@ public class MallardDuck extends java.util.Observable implements Quackable {		//
 	public MallardDuck() {
 		//observable = new Observable(this);
 	}
+
 	public void quack() {
 		System.out.println("Quack");
 		notifyObservers();
